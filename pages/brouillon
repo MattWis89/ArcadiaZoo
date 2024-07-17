@@ -1,0 +1,19 @@
+<div class="container my-5">
+    <div class="row">
+      <div class="col-md-4 d-none d-md-block">
+        <img src="images/ZooCrocodileHome.jpg" class="img-fluid" alt="Image 1">
+      </div>
+      <div class="col-md-4">
+        <img src="images/ZooTigreHome.jpg" class="img-fluid" alt="Image 2">
+      </div>
+      <div class="col-md-4 d-none d-md-block">
+        <img src="images/ZooOiseauHome.jpg" class="img-fluid" alt="Image 3">
+      </div>
+    </div>
+  </div>
+  <div class="title-habitat text-center text-background">
+    <div class="title-habitat-content">
+            <h1>Habitats</h1>
+        <a href="#" ></a>
+    </div>
+</div>
