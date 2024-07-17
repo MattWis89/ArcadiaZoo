@@ -12005,4 +12005,8 @@ footer.footer {
 
 .text-justify {
   text-align: justify;
+}
+
+.carousel-item {
+  filter: brightness(0.9);
 }/*# sourceMappingURL=main.css.map */

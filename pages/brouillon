@@ -1,19 +1,175 @@
-<div class="container my-5">
-    <div class="row">
-      <div class="col-md-4 d-none d-md-block">
-        <img src="images/ZooCrocodileHome.jpg" class="img-fluid" alt="Image 1">
-      </div>
-      <div class="col-md-4">
-        <img src="images/ZooTigreHome.jpg" class="img-fluid" alt="Image 2">
-      </div>
-      <div class="col-md-4 d-none d-md-block">
-        <img src="images/ZooOiseauHome.jpg" class="img-fluid" alt="Image 3">
-      </div>
-    </div>
+<article class="bg-primary text-white">
+  <div class="container p-4">
+      <div class="row row-cols-2 align-items-center">
+          <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/ZooOiseau Accueil.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Nos habitats</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jungle milieu.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Nos animaux</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/PetitTrain Service.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Services</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <div class="col">
+              <h2>Marais</h2>
+              <p class="text-justify text-backgroundclr">
+                 Explorez notre habitat des marais, un écosystème unique abritant des animaux tels que les mystérieux crocodiles, les paisibles tortues et les flamboyants flamants roses. Cet espace humide et verdoyant est une véritable oasis de biodiversité. Découvrez nos mystérieux crocodiles, paisibles tortues et flamboyants flamants roses.</p> 
+              </p>
+          </div>
+      </div>       
   </div>
-  <div class="title-habitat text-center text-background">
-    <div class="title-habitat-content">
-            <h1>Habitats</h1>
-        <a href="#" ></a>
-    </div>
+</article>
+
+
+<div class="hero-scene text-center text-white">
+  <div class="hero-scene-content">
+      <p>Bienvenue au</p>
+      <h1>Zoo Arcadia</h1>
+      <p>Bienvenue au Zoo d'Arcadia, un véritable havre de paix niché au cœur de la forêt de Brocéliande en Bretagne depuis 1960. Notre zoo, emblème de la conservation et du bien-être animal, abrite une multitude d'espèces fascinantes réparties dans des habitats naturels recréés avec soin, tels que la savane, la jungle et les marais.</p>
+  </div>
 </div>
+
+<article>
+  <div class="container p-4">
+      <h2 class="text-center text-secondary bg-primary">Habitats</h2>
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <h2>Jungle</h2>
+              <p class="text-justify">
+                  Plongez dans l'ambiance luxuriante de notre jungle, où résident des créatures fascinantes comme les tigres majestueux, les singes espiègles et les perroquets aux couleurs éclatantes. Cet habitat dense et verdoyant vous transporte au cœur des forêts tropicales. Admirez nos tigres majestueux, singes espiègles et perroquets colorés.
+              </p>
+          </div>
+          <div class="col">
+              <img class="w-100 rounded" src="../images/Jungle milieu.jpg"/>
+          </div>
+      </div>      
+  </div>
+</article>
+<article class="bg-secondary text-white">
+  <div class="container p-4">
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <img class="w-100 rounded" src="../images/Marais milieu.jpg"/>
+          </div>
+          <div class="col">
+              <h2>Marais</h2>
+              <p class="text-justify text-backgroundclr">
+                 Explorez notre habitat des marais, un écosystème unique abritant des animaux tels que les mystérieux crocodiles, les paisibles tortues et les flamboyants flamants roses. Cet espace humide et verdoyant est une véritable oasis de biodiversité. Découvrez nos mystérieux crocodiles, paisibles tortues et flamboyants flamants roses.</p> 
+              </p>
+          </div>
+      </div>       
+  </div>
+</article>
+<article>
+  <div class="container p-4">
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <h2>Savane</h2>
+              <p class="text-justify">
+                Découvrez notre habitat de la savane, où vous pouvez admirer des espèces emblématiques telles que les majestueux lions, les élégantes girafes et les puissants éléphants. Cet espace recrée les vastes plaines africaines, offrant à nos animaux un environnement proche de leur habitat naturel. Rencontrez nos majestueux lions, élégantes girafes et puissants éléphants.
+              </p>
+          </div>
+          <div class="col">
+              <img class="w-100 rounded" src="../images/Savane milieu.jpg"/>
+          </div>
+      </div>
+      <div class="text-center pt-4">
+          <a href="#" class="btn btn-primary">Nos menus</a>
+      </div>
+  </div>
+</article>
+<article class="bg-secondary text-white">
+  <div class="container p-4">
+      <h2 class="text-center text-secondary bg-primary">Services</h2>
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <img class="w-100 rounded " src="../images/Restaurant Services.jpg"/>
+          </div>
+          <div class="col">
+              <h2>Restauration</h2>
+              <p class="text-justify">
+                  Savourez des plats locaux et bio dans notre restaurant éco-responsable. Idéal pour une pause gourmande en pleine nature.
+              </p>
+          </div>
+      </div>      
+  </div>
+</article>
+<article>
+  <div class="container p-4">
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <h2>Visite guidée</h2>
+              <p class="text-justify">
+                  Découvrez nos habitats avec un guide passionné. Apprenez des anecdotes fascinantes sur nos animaux lors de cette visite enrichissante.
+              </p>
+          </div>
+          <div class="col">
+              <img class="w-100 rounded" src="../images/VisitGuidée Service.jpg"/>
+          </div>
+      </div>  
+  </div>
+</article>
+<article class="bg-secondary text-white">
+  <div class="container p-4">
+      <h2 class="text-center text-secondary bg-primary">Services</h2>
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <img class="w-100 rounded " src="../images/PetitTrain Service.jpg"/>
+          </div>
+          <div class="col">
+              <h2>Petit Train</h2>
+              <p class="text-justify">
+                  Explorez le zoo en petit train. Une manière ludique et relaxante de voir tous nos animaux sans effort. Parfait pour les familles !
+              </p>
+          </div>
+      </div>      
+  </div>
+</article>
+<article>
+  <div class="container p-4">
+      <div class="row row-cols-2 align-items-center">
+          <div class="col">
+              <h2>Avis 1</h2>
+              <p class="text-justify">
+                  Avis
+              </p>
+          </div>
+          <div class="col">
+              <h2>Avis 2</h2>
+              <p class="text-justify">
+                  Avis 2
+              </p>
+          </div>
+      </div>  
+  </div>
+</article>
+
