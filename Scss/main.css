@@ -11972,7 +11972,7 @@ html {
 }
 
 footer.footer {
-  padding: 10px;
+  padding: 5px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -12017,12 +12017,14 @@ footer.footer {
 }
 .image-card:hover .titre-image {
   opacity: 1;
+  cursor: pointer;
 }
 .image-card:hover img {
   filter: brightness(0.3);
 }
 .image-card img {
   transition: all 0.3s;
+  cursor: pointer;
 }
 .image-card .titre-image {
   position: absolute;

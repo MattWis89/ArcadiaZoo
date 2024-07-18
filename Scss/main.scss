@@ -7,7 +7,7 @@ html{
 }
 
 footer.footer{
-    padding: 10px;
+    padding: 5px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -56,14 +56,18 @@ footer.footer{
     &:hover{
         .titre-image{
             opacity: 1;
+            cursor: pointer;
+            
         }
         img{
             filter: brightness(0.3);
         }
+        
     }
 
     img{
         transition: all 0.3s;
+        cursor: pointer;
     }
 
     .titre-image{

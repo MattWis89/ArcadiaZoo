@@ -173,3 +173,29 @@
   </div>
 </article>
 
+<!--début de clickable images-->
+<article>
+  <div class="row row-cols-1 row-cols-lg-3">
+      <div class="col p-3">
+          <div class="image-card text-white">
+              <img src="../images/Jungle.jpg" class="rounded w-100"/>
+              <h1 class="titre-image">Jungle</h1>
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+          </div>
+      </div>
+      <div class="col p-3">
+          <div class="image-card text-white">
+              <img src="../images/Savane milieu.jpg" class="rounded w-100"/>
+              <h1 class="titre-image">Savane</h1>
+          </div>
+      </div>
+      <div class="col p-3">
+          <div class="image-card text-white">
+              <img src="../images/Marais milieu.jpg" class="rounded w-100"/>
+              <h1 class="titre-image">Marais</>
+          </div>
+      </div>   
+  </div>
+</article>
